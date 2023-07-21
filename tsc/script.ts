@@ -83,3 +83,6 @@ fetch("starter/Abbigliamento.json")
       row.appendChild(clothesEl)
     })
   })
+  .catch((err) => {
+    console.log(err)
+  })
